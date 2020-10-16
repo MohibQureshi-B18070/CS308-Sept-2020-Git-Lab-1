@@ -12,20 +12,20 @@ int main(int argc, char *argv[])
 
 	if (argc != 2)
 	{
-		printf("DEBUG: Usage: sqrt input\n\n");
+		printf("testbranch1: Usage: sqrt input\n\n");
 		exit(-1);
 	}
 
 	int input = atoi(argv[1]);
 	if (input >= 0)
 	{
-		printf("DEBUG: Sqrt of %d is %f\n", input, sqrt(input));
-		printf("DEBUG: End of program.Exiting.\n");
+		printf("testbranch1: Sqrt of %d is %f\n", input, sqrt(input));
+		printf("testbranch1: End of program.Exiting.\n");
 	}
 
 	else
 	{
-		printf("negsupport: input is not valid");
+		printf("testbranch1: input is not valid");
 	}
 
 	return (0);
